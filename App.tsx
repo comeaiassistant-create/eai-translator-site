@@ -5,6 +5,7 @@ import TextMode from './components/TextMode';
 import VoiceMode from './components/VoiceMode';
 import CameraMode from './components/CameraMode';
 import FileMode from './components/FileMode';
+import LanguageSelector from './components/LanguageSelector';
 
 const App: React.FC = () => {
   const [mode, setMode] = useState<AppMode>(AppMode.TEXT);
