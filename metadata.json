@@ -1,0 +1,8 @@
+{
+  "name": "Super Translator",
+  "description": "A powerful multi-modal translator app supporting Text, Voice, Camera, and Files powered by Google Gemini 2.5.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
