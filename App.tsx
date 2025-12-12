@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Type, Mic, Camera, FileText, Settings as SettingsIcon } from 'lucide-react';
 import { AppMode } from './types';
-import TextMode from './components/TextMode.tsx';
-import VoiceMode from './components/VoiceMode.tsx';
-import CameraMode from './components/CameraMode.tsx';
-import FileMode from './components/FileMode.tsx';
-import LanguageSelector from './components/LanguageSelector.tsx';
+import TextMode from './components/TextMode';
+import VoiceMode from './components/VoiceMode';
+import CameraMode from './components/CameraMode';
+import FileMode from './components/FileMode';
+import LanguageSelector from './components/LanguageSelector';
 
 const App: React.FC = () => {
   const [mode, setMode] = useState<AppMode>(AppMode.TEXT);
